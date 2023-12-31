@@ -16,20 +16,6 @@
       <description>Introduction Link to heading This post describes how to setup a simple image classification service using tensorflow/keras and a set of golang microservices, that can be deployed on kubernetes.&#xA;For showcasing this I decided to make a simple webpage which allows you to upload a picture and predicts whether the uploaded image shows a cat or not.&#xA;The code can be found on gitlab&#xA;Services Link to heading isit-a-cat consists of 3 golang microservices and the python code for machine learning part.</description>
     </item>
     <item>
-      <title>Deploy a hugo blog website on AWS S3 and Cloudfront with Gitlab CI</title>
-      <link>https://pdstuber.dev/posts/hugo-s3-cloudfront/</link>
-      <pubDate>Thu, 28 Mar 2019 22:07:17 +0100</pubDate>
-      <guid>https://pdstuber.dev/posts/hugo-s3-cloudfront/</guid>
-      <description>Prerequisites Link to heading AWS account a domain a TLS certificate, e.g. from letsencrypt, imported in AWS certificate manager region us-east-1 Gitlab account Create Access Key Link to heading Create Policy for Gitlab CI Link to heading Logon to AWS console, go to IAM, create a new policy and paste the following json:&#xA;Replace ${domain} by the domain you use (e.g. blog.johndoe.io).&#xA;{ &amp;#34;Version&amp;#34;: &amp;#34;2012-10-17&amp;#34;, &amp;#34;Statement&amp;#34;: [ { &amp;#34;Sid&amp;#34;: &amp;#34;gitlabCI0&amp;#34;, &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;, &amp;#34;Action&amp;#34;: [ &amp;#34;s3:GetObject&amp;#34;, &amp;#34;s3:PutObject&amp;#34;, &amp;#34;s3:DeleteObject&amp;#34; ], &amp;#34;Resource&amp;#34;: &amp;#34;arn:aws:s3:::${domain}/*&amp;#34; }, { &amp;#34;Sid&amp;#34;: &amp;#34;gitlabCI1&amp;#34;, &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;, &amp;#34;Action&amp;#34;: [ &amp;#34;s3:ListBucket&amp;#34;, &amp;#34;s3:PutBucketWebsite&amp;#34;, &amp;#34;s3:PutBucketPolicy&amp;#34;, &amp;#34;s3:CreateBucket&amp;#34; ], &amp;#34;Resource&amp;#34;: &amp;#34;arn:aws:s3:::${domain}&amp;#34; }, { &amp;#34;Sid&amp;#34;: &amp;#34;gitlabCI2&amp;#34;, &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;, &amp;#34;Action&amp;#34;: [ &amp;#34;cloudfront:CreateInvalidation&amp;#34;, &amp;#34;cloudfront:GetInvalidation&amp;#34;, &amp;#34;cloudfront:ListInvalidations&amp;#34;, &amp;#34;cloudfront:CreateDistribution&amp;#34; ], &amp;#34;Resource&amp;#34;: &amp;#34;*&amp;#34; } ] } Create user and access key Link to heading Again go to IAM, create a new user, hit the checkbox &amp;ldquo;Programmatic access&amp;rdquo; at access type.</description>
-    </item>
-    <item>
-      <title>Setup jenkins in docker container with nginx as reverse proxy</title>
-      <link>https://pdstuber.dev/posts/jenkins-docker-nginx/</link>
-      <pubDate>Sat, 23 Mar 2019 17:27:35 +0100</pubDate>
-      <guid>https://pdstuber.dev/posts/jenkins-docker-nginx/</guid>
-      <description>Install, enable, start nginx Link to heading I believe not every single piece of code we write today has to run in a docker container. So we&amp;rsquo;re gonna just use the &amp;ldquo;classic&amp;rdquo; nginx.&#xA;$ sudo apt install nginx $ sudo systemctl enable nginx.service $ sudo systemctl start nginx.service Get a TLS certificate from letsencrypt Link to heading Install the letsencrypt certbot tool&#xA;$ sudo apt-get update $ sudo apt-get install software-properties-common $ sudo add-apt-repository universe $ sudo add-apt-repository ppa:certbot/certbot $ sudo apt-get update $ sudo apt-get install certbot Get a certificate:</description>
-    </item>
-    <item>
       <title>About</title>
       <link>https://pdstuber.dev/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
