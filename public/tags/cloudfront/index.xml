@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloudfront on Philipp Stuber</title>
+    <link>https://pdstuber.dev/tags/cloudfront/</link>
+    <description>Recent content in cloudfront on Philipp Stuber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Mar 2019 22:07:17 +0100</lastBuildDate>
+    <atom:link href="https://pdstuber.dev/tags/cloudfront/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy a hugo blog website on AWS S3 and Cloudfront with Gitlab CI</title>
+      <link>https://pdstuber.dev/posts/hugo-s3-cloudfront/</link>
+      <pubDate>Thu, 28 Mar 2019 22:07:17 +0100</pubDate>
+      <guid>https://pdstuber.dev/posts/hugo-s3-cloudfront/</guid>
+      <description>Prerequisites Link to heading AWS account a domain a TLS certificate, e.g. from letsencrypt, imported in AWS certificate manager region us-east-1 Gitlab account Create Access Key Link to heading Create Policy for Gitlab CI Link to heading Logon to AWS console, go to IAM, create a new policy and paste the following json:&#xA;Replace ${domain} by the domain you use (e.g. blog.johndoe.io).&#xA;{ &amp;#34;Version&amp;#34;: &amp;#34;2012-10-17&amp;#34;, &amp;#34;Statement&amp;#34;: [ { &amp;#34;Sid&amp;#34;: &amp;#34;gitlabCI0&amp;#34;, &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;, &amp;#34;Action&amp;#34;: [ &amp;#34;s3:GetObject&amp;#34;, &amp;#34;s3:PutObject&amp;#34;, &amp;#34;s3:DeleteObject&amp;#34; ], &amp;#34;Resource&amp;#34;: &amp;#34;arn:aws:s3:::${domain}/*&amp;#34; }, { &amp;#34;Sid&amp;#34;: &amp;#34;gitlabCI1&amp;#34;, &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;, &amp;#34;Action&amp;#34;: [ &amp;#34;s3:ListBucket&amp;#34;, &amp;#34;s3:PutBucketWebsite&amp;#34;, &amp;#34;s3:PutBucketPolicy&amp;#34;, &amp;#34;s3:CreateBucket&amp;#34; ], &amp;#34;Resource&amp;#34;: &amp;#34;arn:aws:s3:::${domain}&amp;#34; }, { &amp;#34;Sid&amp;#34;: &amp;#34;gitlabCI2&amp;#34;, &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;, &amp;#34;Action&amp;#34;: [ &amp;#34;cloudfront:CreateInvalidation&amp;#34;, &amp;#34;cloudfront:GetInvalidation&amp;#34;, &amp;#34;cloudfront:ListInvalidations&amp;#34;, &amp;#34;cloudfront:CreateDistribution&amp;#34; ], &amp;#34;Resource&amp;#34;: &amp;#34;*&amp;#34; } ] } Create user and access key Link to heading Again go to IAM, create a new user, hit the checkbox &amp;ldquo;Programmatic access&amp;rdquo; at access type.</description>
+    </item>
+  </channel>
+</rss>

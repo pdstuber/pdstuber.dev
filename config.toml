@@ -1,0 +1,84 @@
+baseURL = "https://pdstuber.dev"
+title = "Philipp Stuber"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 6
+enableEmoji = true
+
+[markup.highlight]
+noClasses = false
+
+[params]
+author = "Philipp Stuber"
+description = "The personal website of Philipp Stuber"
+keywords = "blog,developer,personal"
+avatarURL = "images/avatar.webp"
+dateFormat = "January 2, 2006"
+# Right To Left, shift content direction for languagues such as Arabic
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+
+# Custom JS
+customJS = []
+
+# Custom remote JS files
+customRemoteJS = []
+
+[params.goatCounter]
+code = "pdstuber"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/pdstuber/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/pdstuber/"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "Home"
+weight = 1
+url = "/"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 2
+url = "/about"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 3
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "E-Mail"
+weight = 4
+url = "mailto:stuberphd@gmail.com"
+

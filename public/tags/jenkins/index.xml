@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jenkins on Philipp Stuber</title>
+    <link>https://pdstuber.dev/tags/jenkins/</link>
+    <description>Recent content in jenkins on Philipp Stuber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 23 Mar 2019 17:27:35 +0100</lastBuildDate>
+    <atom:link href="https://pdstuber.dev/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup jenkins in docker container with nginx as reverse proxy</title>
+      <link>https://pdstuber.dev/posts/jenkins-docker-nginx/</link>
+      <pubDate>Sat, 23 Mar 2019 17:27:35 +0100</pubDate>
+      <guid>https://pdstuber.dev/posts/jenkins-docker-nginx/</guid>
+      <description>Install, enable, start nginx Link to heading I believe not every single piece of code we write today has to run in a docker container. So we&amp;rsquo;re gonna just use the &amp;ldquo;classic&amp;rdquo; nginx.&#xA;$ sudo apt install nginx $ sudo systemctl enable nginx.service $ sudo systemctl start nginx.service Get a TLS certificate from letsencrypt Link to heading Install the letsencrypt certbot tool&#xA;$ sudo apt-get update $ sudo apt-get install software-properties-common $ sudo add-apt-repository universe $ sudo add-apt-repository ppa:certbot/certbot $ sudo apt-get update $ sudo apt-get install certbot Get a certificate:</description>
+    </item>
+  </channel>
+</rss>
