@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pdstuber.dev/setup/</loc>
+    <lastmod>2024-01-01T14:33:44+01:00</lastmod>
+  </url><url>
     <loc>https://pdstuber.dev/tags/golang/</loc>
     <lastmod>2020-04-25T17:56:02+02:00</lastmod>
   </url><url>

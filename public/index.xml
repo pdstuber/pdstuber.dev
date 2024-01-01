@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 25 Apr 2020 17:56:02 +0200</lastBuildDate>
     <atom:link href="https://pdstuber.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Dev Setup</title>
+      <link>https://pdstuber.dev/setup/</link>
+      <pubDate>Mon, 01 Jan 2024 14:33:44 +0100</pubDate>
+      <guid>https://pdstuber.dev/setup/</guid>
+      <description>I work exclusively from home as a software developer. This is my current development setup&#xA;Hardware Link to heading Apple M1 Mac Book Pro and Air Dell U2723QE with USB-C Hub as main monitor LG 27UP650 as secondary monitor in vertical orientation Standing Desk from Eliot Furniture ZSA Moonlander split mechanical keyboard Logitech Lift vertical mouse Logitech Brio 4K Webcam Behringer UMC22 Audio Interface The t.bone BC500 microphone with Elgato low-profile microphone arm HifiMAN Sundara Headphones I connect all of my USB devices to the main monitor.</description>
+    </item>
+    <item>
       <title>Is it a cat? Deploying a machine learning application as microservices</title>
       <link>https://pdstuber.dev/posts/tensorflow-golang/</link>
       <pubDate>Sat, 25 Apr 2020 17:56:02 +0200</pubDate>
