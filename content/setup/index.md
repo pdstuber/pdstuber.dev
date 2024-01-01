@@ -7,7 +7,7 @@ I work exclusively from home as a software developer. This is my current develop
 ![A picture of my desk and all the hardware](./images/desk.webp)
 ## Hardware
 
-    Apple M1 Mac Book Pro and Air
+    Apple M1 MacBook Pro and MacBook Air
     Dell U2723QE with USB-C Hub as main monitor
     LG 27UP650 as secondary monitor in vertical orientation
     Standing Desk from Eliot Furniture
