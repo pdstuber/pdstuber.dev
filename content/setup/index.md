@@ -4,7 +4,7 @@ title = "Dev Setup"
 +++
 I work exclusively from home as a software developer. This is my current development setup
 
-![A picture of my desk and all the hardware](./images/desk.webp)
+![A picture of my desk and all the hardware](images/desk.webp "Picture of my home office desk setup")
 ## Hardware
 
     Apple M1 MacBook Pro and MacBook Air
