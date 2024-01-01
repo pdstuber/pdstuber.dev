@@ -4,7 +4,7 @@ title = "Dev Setup"
 +++
 I work exclusively from home as a software developer. This is my current development setup
 
-{{< imgh src="images/desk.webp" alt="Photo of my home office setup" >}}
+{{< img src="images/desk.webp" alt="Photo of my home office setup" >}}
 
 ## Hardware
 
