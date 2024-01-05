@@ -12,11 +12,13 @@ I work exclusively from home as a software developer. This is my current develop
     Dell U2723QE with USB-C Hub as main monitor
     LG 27UP650 as secondary monitor in vertical orientation
     Standing Desk from Eliot Furniture
+    Herman Miller Sayl Office Chair
     ZSA Moonlander split mechanical keyboard
     Logitech Lift vertical mouse
     Logitech Brio 4K Webcam
-    Behringer UMC22 Audio Interface
-    The t.bone BC500 microphone with Elgato low-profile microphone arm
+    Solid State Logic SSL2 Audio Interface
+    the t.bone BC 500 microphone
+    Elgato Wave Mic Arm LP microphone arm
     HifiMAN Sundara Headphones
 
 I connect all of my USB devices to the main monitor. The monitor also has ethernet.
@@ -29,6 +31,7 @@ My current layout for the Moonlander can be found [here](https://configure.zsa.i
 
     Router: AVM FRITZ!Box 4060
     Fiber Modem: Telekom Glasfaser Modem 2
+    Switch: Zyxel GS105BV3
 
 I have a 1000 MBit/s optical fiber connection from german Telekom (Magenta) and I'm very happy with it. As usual in germany the link is asynchronous and "only" provides 200 MBit/s upload speeds, but it is still plenty for my uses.
 The Fritz!Box supports Wifi 6, but I mostly connect my macbooks via ethernet (provided by my monitor).
@@ -43,6 +46,6 @@ MonoLisa. This is a paid font, but I find it really beautiful and I think it's w
 
 ## Terminal
 
-I use kitty, fish, starship and some other tools.
+I use [Kitty](https://sw.kovidgoyal.net/kitty/), [Fish](https://fishshell.com/), [Starship](https://starship.rs/) and some other tools.
 
 You can find all of my dotfiles [here](https://github.com/pdstuber/dotfiles).
