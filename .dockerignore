@@ -1,0 +1,11 @@
+# flyctl launch added from .gitignore
+**/.DS_Store
+
+# flyctl launch added from themes/hugo-coder/.gitignore
+themes/hugo-coder/**/.idea
+themes/hugo-coder/**/**/themes
+themes/hugo-coder/**/exampleSite/public
+themes/hugo-coder/**/exampleSite/resources
+themes/hugo-coder/**/*.lock
+themes/hugo-coder/**/public
+fly.toml
