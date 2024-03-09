@@ -78,12 +78,7 @@ weight = 3
 url = "setup/"
 
 [[languages.en.menu.main]]
-name = "Blog"
-weight = 4
-url = "posts/"
-
-[[languages.en.menu.main]]
 name = "E-Mail"
-weight = 5
-url = "mailto:stuberphd@gmail.com"
+weight = 4
+url = "mailto:mail@pdstuber.dev"
 
