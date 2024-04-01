@@ -4,7 +4,7 @@ title = "Resume"
 
 # Resume
 ## Intro
-Senior Software Engineer with over ten years of experience in a multitude of domains and tech stacks, both as a team lead and individual contributor. Passionate about creating cloud-native microservices that are performant, resilient, and observable.
+Senior Software Engineer with over a decade of experience in a multitude of domains and tech stacks, both as a team lead and individual contributor. Passionate about creating high-performing, resilient, and observable applications.
 
 ## Skills
 * Programming, currently in Go (for money), Python, and Rust (for fun).
