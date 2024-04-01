@@ -2,7 +2,6 @@
 title = "Resume"
 +++
 
-# Resume
 ## Intro
 Senior Software Engineer with over a decade of experience in a multitude of domains and tech stacks, both as a team lead and individual contributor. Passionate about creating high-performing, resilient, and observable applications.
 
@@ -20,7 +19,7 @@ Technologies: Go, Kubernetes, CockroachDB, NATS Jetstream, Prometheus
 
 * Lead teams of 4-6 Senior Software Engineers distributed across Europe and North America.
 * Contributed to technical architecture improvements through ADR and RFC proposals.
-* Successfully united team management and strong individual contribution.
+* Balanced effective team management and strong individual contribution.
 * Provided technical mentorship and coaching, leading to the promotion of two team members to Lead Engineers.
 
 #### Senior Software Engineer | Apr 2021 - Mar 2022
