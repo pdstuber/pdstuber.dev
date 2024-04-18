@@ -17,7 +17,7 @@ Senior Software Engineer with over a decade of experience in a multitude of doma
 
 Technologies: Go, Kubernetes, CockroachDB, NATS Jetstream, Prometheus
 
-* Lead teams of 4-6 Senior Software Engineers distributed across Europe and North America.
+* Led teams of 4-6 Senior Software Engineers distributed across Europe and North America.
 * Contributed to technical architecture improvements through ADR and RFC proposals.
 * Balanced effective team management and strong individual contribution.
 * Provided technical mentorship and coaching, leading to the promotion of two team members to Lead Engineers.
