@@ -1,5 +1,112 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Philipp Stuber</title><link>https://pdstuber.dev/</link><description>Recent content on Philipp Stuber</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 14:33:44 +0100</lastBuildDate><atom:link href="https://pdstuber.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Dev Setup</title><link>https://pdstuber.dev/setup/</link><pubDate>Mon, 01 Jan 2024 14:33:44 +0100</pubDate><guid>https://pdstuber.dev/setup/</guid><description>I work exclusively from home as a software developer. This is my current development setup
-Hardware Link to heading Apple M1 MacBook Pro and MacBook Air Dell U2723QE with USB-C Hub as main monitor LG 27UP650 as secondary monitor in vertical orientation Standing Desk from Eliot Furniture Herman Miller Sayl Office Chair ZSA Moonlander split mechanical keyboard Logitech Lift vertical mouse Logitech Brio 4K Webcam Solid State Logic SSL2 Audio Interface the t.</description></item><item><title>About</title><link>https://pdstuber.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pdstuber.dev/about/</guid><description>Hi! I’m Philipp and I&amp;rsquo;m passionate about crafting awesome software.
-I have created this blog primarily for my own benefit, as a journal and to practise technical writing.
-However don&amp;rsquo;t hesitate to reach out to me via e-mail with any questions, insights or feedback you might have.</description></item><item><title>Resume</title><link>https://pdstuber.dev/resume/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pdstuber.dev/resume/</guid><description>Intro Link to heading Senior Software Engineer with over a decade of experience in a multitude of domains and tech stacks, both as a team lead and individual contributor. Passionate about creating high-performing, resilient, and observable applications.
-Skills Link to heading Programming, currently in Go (for money), Python, and Rust (for fun). Distributed systems, including messaging systems and distributed databases. Mentoring and coaching other engineers. Communicating effectively with technical and non-technical stakeholders.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Philipp Stuber</title><link>https://pdstuber.dev/</link><description>Recent content on Philipp Stuber</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 14:33:44 +0100</lastBuildDate><atom:link href="https://pdstuber.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Dev Setup</title><link>https://pdstuber.dev/setup/</link><pubDate>Mon, 01 Jan 2024 14:33:44 +0100</pubDate><guid>https://pdstuber.dev/setup/</guid><description>&lt;p>I work exclusively from home as a software developer. This is my current development setup&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;img 
+ sizes="(min-width: 35em) 1200px, 100vw"
+ srcset='
+ 
+ /setup/images/desk_hu2348797431328229918.webp 500w
+ 
+ 
+ , /setup/images/desk_hu2355380323560551579.webp 800w
+ 
+ 
+ , /setup/images/desk_hu5957701630823927194.webp 1200w
+ 
+ 
+ , /setup/images/desk_hu5073390950717446034.webp 1500w 
+ '
+ 
+ src="https://pdstuber.dev/setup/images/desk.webp" 
+ 
+ alt="Photo of my home office setup">
+&lt;h2 id="hardware">
+ Hardware
+ &lt;a class="heading-link" href="#hardware">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;pre>&lt;code>Apple M1 MacBook Pro and MacBook Air
+Dell U2723QE with USB-C Hub as main monitor
+LG 27UP650 as secondary monitor in vertical orientation
+Standing Desk from Eliot Furniture
+Herman Miller Sayl Office Chair
+ZSA Moonlander split mechanical keyboard
+Logitech Lift vertical mouse
+Logitech Brio 4K Webcam
+Solid State Logic SSL2 Audio Interface
+the t.bone BC 500 microphone
+Elgato Wave Mic Arm LP microphone arm
+HifiMAN Sundara Headphones
+&lt;/code>&lt;/pre>
+&lt;p>I connect all of my USB devices to the main monitor. The monitor also has ethernet.&lt;/p></description></item><item><title>About</title><link>https://pdstuber.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pdstuber.dev/about/</guid><description>&lt;p>Hi! I’m Philipp and I&amp;rsquo;m passionate about crafting awesome software.&lt;/p>
+&lt;p>I have created this blog primarily for my own benefit, as a journal and to practise technical writing.&lt;/p>
+&lt;p>However don&amp;rsquo;t hesitate to reach out to me via e-mail with any questions, insights or feedback you might have.&lt;/p></description></item><item><title>Resume</title><link>https://pdstuber.dev/resume/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pdstuber.dev/resume/</guid><description>&lt;h2 id="intro">
+ Intro
+ &lt;a class="heading-link" href="#intro">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>Senior Software Engineer with over a decade of experience in a multitude of domains and tech stacks, both as a team lead and individual contributor. Passionate about creating high-performing, resilient, and observable applications.&lt;/p>
+&lt;h2 id="skills">
+ Skills
+ &lt;a class="heading-link" href="#skills">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>Programming, currently in Go (for money), Python, and Rust (for fun).&lt;/li>
+&lt;li>Distributed systems, including messaging systems and distributed databases.&lt;/li>
+&lt;li>Mentoring and coaching other engineers.&lt;/li>
+&lt;li>Communicating effectively with technical and non-technical stakeholders.&lt;/li>
+&lt;/ul>
+&lt;h2 id="work-experience">
+ Work Experience
+ &lt;a class="heading-link" href="#work-experience">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="form3">
+ Form3
+ &lt;a class="heading-link" href="#form3">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;h4 id="lead-engineer--apr-2022---current">
+ Lead Engineer | Apr 2022 - Current
+ &lt;a class="heading-link" href="#lead-engineer--apr-2022---current">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h4>
+&lt;p>Technologies: Go, Kubernetes, CockroachDB, NATS Jetstream, Prometheus&lt;/p></description></item></channel></rss>
