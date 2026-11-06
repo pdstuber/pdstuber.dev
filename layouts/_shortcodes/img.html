@@ -1,0 +1,15 @@
+{{- $src := .Page.Resources.Get (.Get "src") -}}
+{{- if not $src }}{{ errorf "img shortcode: %q not found in %s" (.Get "src") .Position }}{{ end -}}
+{{- $srcset := slice -}}
+{{- range slice 500 800 1200 1500 -}}
+  {{- if le . $src.Width -}}
+    {{- $srcset = $srcset | append (printf "%s %dw" ($src.Resize (printf "%dx" .)).RelPermalink .) -}}
+  {{- end -}}
+{{- end -}}
+{{- $img := $src -}}
+{{- if gt $src.Width 1200 }}{{ $img = $src.Resize "1200x" }}{{ end -}}
+{{/* Theme sets only max-width, so height:auto keeps the aspect ratio when shrunk. */}}
+<img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" style="height:auto"
+  srcset="{{ delimit $srcset ", " }}"
+  sizes="{{ .Get "sizes" | default "(min-width: 35em) 1200px, 100vw" }}"
+  alt="{{ .Get "alt" }}">
