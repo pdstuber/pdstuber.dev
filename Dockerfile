@@ -3,7 +3,7 @@ FROM ghcr.io/gohugoio/hugo:v0.169.0 AS build
 USER root
 WORKDIR /src
 COPY . .
-RUN hugo --gc --minify
+RUN apk add --no-cache make && make build
 
 FROM joseluisq/static-web-server:2.44.1
 COPY --from=build /src/public /public
