@@ -7,5 +7,6 @@ RUN apk add --no-cache make && make build
 
 FROM joseluisq/static-web-server:2.44.1
 COPY --from=build /src/public /public
-ENV SERVER_PORT=8080 SERVER_HEALTH=true SERVER_CACHE_CONTROL_HEADERS=false
+COPY sws.toml /sws.toml
+ENV SERVER_PORT=8080 SERVER_HEALTH=true SERVER_CACHE_CONTROL_HEADERS=false SERVER_CONFIG_FILE=/sws.toml
 USER 65534:65534
