@@ -8,5 +8,7 @@ Needs `hugo` (extended) and `go` (to fetch the theme module).
 
 Update the theme with `hugo mod get -u && hugo mod tidy`.
 
+The resume source lives in the private `resume` repo. `make sync-resume` copies it from `../resume/resume.md` (override with `RESUME_SRC=`); review and commit the diff here.
+
 ## Deploy
 `fly deploy`. The Dockerfile builds the site with a pinned Hugo image and serves it with [static-web-server](https://static-web-server.net/).
