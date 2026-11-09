@@ -17,14 +17,12 @@ Senior Software Engineer with over a decade of experience in a multitude of doma
 ### BMW
 #### Senior Software Engineer | Aug 2024 - Present
 
-Technologies: Kotlin, Jetpack Compose, Android, Gradle, Mapbox, OkHttp, Paparazzi, Detekt
+Technologies: Kotlin, Jetpack Compose, Android, Gradle, Mapbox, OkHttp, Detekt
 
 ##### Navigation App: In-Vehicle Navigation for BMW Group Vehicles
 
 * Developed features for a production in-vehicle navigation app, including battery-aware route information, destination shortcuts, and improvements to turn-by-turn guidance.
-* Integrated the app with in-car displays, delivering guidance and charging data to a head-up display.
-* Built and hardened a companion Android app that renders live navigation data received from the main app over inter-app broadcasts, including end-to-end tests and release size reduction.
-* Improved the reliability of the build and test pipeline by migrating UI screenshot tests to Paparazzi, recording snapshots in CI, removing flaky integration tests, and adding custom static-analysis rules.
+* Automated snapshot recording for UI screenshot tests in CI, re-recording snapshots and posting their status as pull request comments.
 * Fixed production crashes and robustness issues across the app and shared libraries, such as resource leaks, slow main-thread work, timeouts, offline start-up, and edge cases in rerouting.
 * Built an internal developer tool in Kotlin that lets command-line tools work through an authenticating corporate proxy, shipped as a self-contained macOS app.
 
